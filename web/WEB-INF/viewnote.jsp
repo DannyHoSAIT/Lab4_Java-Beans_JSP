@@ -15,8 +15,8 @@
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
         <form method="post" action="note">
-            <h4>Title: <span>${txtNote.title}</span></h4>
-            <h4>Contents: <span>${txtNote.content}</span></h4>
+            <h4>Title: <span>${txtNote.getTitle()}</span></h4>
+            <h4>Contents: <span>${txtNote.getContent()}</span></h4>
         </form>
         <a href="note?edit">Edit</a>
     </body>

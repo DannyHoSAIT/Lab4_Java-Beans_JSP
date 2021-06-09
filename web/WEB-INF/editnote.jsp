@@ -15,9 +15,13 @@
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
         <form method="post" action="note">
-            <h4>Title: <span>asdasd</span></h4>
-            <h4>Contents: <span>sdased</span></h4>
+            <label>Title: </label>
+            <input type="text" name="editTitle" value="${txtNote.getTitle()}">
+            <br>
+            <label>Contents: </label>
+            <textarea id="thecontent" name="editContent" rows="6" cols="25">${txtNote.getContent()}</textarea>
+            <br>
+            <input type="submit" value="Save">
         </form>
-
     </body>
 </html>
