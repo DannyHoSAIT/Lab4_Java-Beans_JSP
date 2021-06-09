@@ -15,8 +15,8 @@
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
         <form method="post" action="note">
-            <h4>Title: <span></span></h4>
-            <h4>Contents: <span></span></h4>
+            <h4>Title: <span>asdasd</span></h4>
+            <h4>Contents: <span>sdased</span></h4>
         </form>
 
     </body>
