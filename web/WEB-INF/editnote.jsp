@@ -16,10 +16,10 @@
         <h2>Edit Note</h2>
         <form method="post" action="note">
             <label>Title: </label>
-            <input type="text" name="editTitle" value="${txtNote.getTitle()}">
+            <input type="text" name="editTitle" value="${txtNote.title}">
             <br>
             <label>Contents: </label>
-            <textarea id="thecontent" name="editContent" rows="6" cols="25">${txtNote.getContent()}</textarea>
+            <textarea id="thecontent" name="editContent" rows="6" cols="25">${txtNote.content}</textarea>
             <br>
             <input type="submit" value="Save">
         </form>
